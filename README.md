@@ -1,5 +1,7 @@
 # DemeForGit
-git 使用 
+
+git 使用
+一  上传远程仓库 使用 
 
 1 cd 进入需要使用git的工程目录
 2 git 初始化      git init
@@ -9,3 +11,9 @@ git 使用
                   git config --global user.name "Your Name"
 6 提交到本地缓存     git commit -m "commit init"
 7 提交到远程        git push -u origin master
+
+二 从远程仓库下载代码
+
+1.在电脑上建立一个文件夹然后用终端命令进入该目录
+
+2.git clone 远程地址 回车
